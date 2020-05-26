@@ -76,3 +76,14 @@ console.log(telefone.replace(regExp, "telefone"));
 
 //Número
 new Number(value);
+
+// String
+//O objeto global String  é um construtor para strings, ou uma sequência de caracteres.
+var a = "a";
+var b = "b";
+if (a < b) // verdadeiro
+  print(a + " é menor que " + b);
+else if (a > b)
+  print(a + " é maior que " + b);
+else
+  print(a + " e " + b + " são iguais.");
